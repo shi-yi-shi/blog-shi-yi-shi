@@ -1,0 +1,109 @@
+baseURL = 'https://shi-yi-shi.pages.dev/'
+title = 'shi-yi-shi'
+theme = 'PaperMod'
+locale = 'zh-cn'
+defaultContentLanguage = 'zh'
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = false
+summaryLength = 30
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[pagination]
+  pagerSize = 12
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = 'monokai'
+    noClasses = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+[params]
+  env = 'production'
+  description = 'CTF · 密码学 · 嵌入式开发 —— 学习笔记与实战记录'
+  author = 'shi-yi-shi'
+  DateFormat = '2006-01-02'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = false
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowPostNavLinks = true
+  ShowPagination = true
+  ShowCodeLangLabel = true
+  comments = false
+
+  [params.homeInfoParams]
+    Title = '欢迎来到 shi-yi-shi'
+    Content = '''
+这里是 **shi-yi-shi** 的个人博客，记录 CTF 竞赛、密码学、Web 安全与嵌入式开发的学习与实战。
+
+**主要方向**：Crypto / Web / 逆向 · CTF writeup · 密码学手记 · STM32 嵌入式
+'''
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/shi-yi-shi'
+
+  [[params.socialIcons]]
+    name = 'rss'
+    url = '/index.xml'
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    minMatchCharLength = 1
+    keys = ['title', 'permalink', 'summary', 'content']
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 30
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search/'
+    weight = 40
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 50
