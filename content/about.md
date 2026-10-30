@@ -26,7 +26,7 @@ ShowReadingTime = false
 
 ## 联系
 
-- GitHub：[@idabery](https://github.com/idabery)
+- GitHub：[@shi-yi-shi](https://github.com/shi-yi-shi)
 - Email：479587151@qq.com
 
 ---

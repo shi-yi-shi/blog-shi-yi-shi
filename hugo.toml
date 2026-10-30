@@ -69,7 +69,7 @@ buildExpired = false
 
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/idabery'
+    url = 'https://github.com/shi-yi-shi'
 
   [[params.socialIcons]]
     name = 'rss'

@@ -44,4 +44,4 @@ categories = ['随笔']
 
 ---
 
-*本博客由 Hugo + PaperMod 构建，托管在 Cloudflare Pages。源码在 GitHub：[@idabery/blog-shi-yi-shi](https://github.com/idabery/blog-shi-yi-shi)。*
+*本博客由 Hugo + PaperMod 构建，托管在 Cloudflare Pages。源码在 GitHub：[@shi-yi-shi/blog-shi-yi-shi](https://github.com/shi-yi-shi/blog-shi-yi-shi)。*
